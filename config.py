@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7918144306:AAGTAZtgiM0p4aew1vQyKHH_KQvLsNs1-MU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8093912421:AAGDpqY36XmNWmiZSi-T4qwdJjxN7ABlpRI")
 API_ID = int(os.environ.get("API_ID", "28015531"))
 API_HASH = os.environ.get("API_HASH", "2ab4ba37fd5d9ebf1353328fc915ad28")
 
@@ -15,9 +15,9 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://haribotx:haribotx@cluster0.i3sk
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1002193296931"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002281443316"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001932655927"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002031516368"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
